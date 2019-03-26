@@ -1,0 +1,320 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f9f9f9;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+	color: #383838;
+}
+
+a {
+	color: #383838;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.meta {
+	font-family: ff-meta-serif-web-pro,serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #383838;
+	font-size: 5vh;
+}
+
+.meta-2 {
+	font-family: ff-meta-serif-web-pro,serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #383838;
+	font-size: 5vh;
+	line-height: 8vh;
+}
+
+.helvetica {
+	font-size: 4vh;
+	line-height: 8vh;
+	width: 77.5vw;
+	word-wrap: break-word;
+	clear: both;
+}
+
+.intro-page {
+	float: left;
+	margin-left: 10vw;
+	width: 80vw;
+}
+
+.myStory {
+	font-size: 3.4vh;
+}
+
+.myStoryContent {
+	margin-left: auto;
+	margin-right: auto;
+	width: 77.5vw;
+	margin-top: 32vh;
+	height: 66vh;
+	overflow: auto;
+	overflow-y: scroll;
+}
+
+.toArchiveButton {
+	margin-top: 5vh;
+	font-size: 3vh;
+	padding: 1.5vh;
+	border: 2px #383838 solid;
+	width: 13vw;
+	border-radius: 5px;
+	transition: background-color 1s;
+}
+
+.toArchiveButton:hover {
+	background-color: lightgray;
+}
+
+.archiveContent {
+	margin-left: auto;
+	margin-right: auto;
+	width: 77.5vw;
+	margin-top: 20vh;
+	position: relative;
+	height: 79vh;
+}
+
+.names {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	font-size: 5vw;
+}
+
+.s-name {
+	font-size: 1vw;
+}
+
+.sm-name {
+	font-size: 2vw;
+}
+
+.m-name {
+	font-size: 3vw;
+}
+
+.ml-name {
+	font-size: 4vw;
+}
+
+.l-name {
+	font-size: 5vw;
+}
+
+.page {
+	float: left;
+	margin-left: 10vw;
+	width: 80vw;
+	height: 100vh;
+}
+
+.docScroller {
+	overflow-x: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	scroll-snap-points-y: repeat(100%);
+	scroll-snap-type: mandatory;
+	scroll-snap-destination: 100% 0%;
+}
+
+.header {
+	/*margin-top: 4vh;*/
+	height: 8vh;
+	position: fixed;
+	width: 80vw;
+	background-color: #f9f9f9;
+	padding-top: 4vh;
+	padding-bottom: 10vh;
+	z-index: 4;
+}
+
+.about {
+	position: relative;
+	float: right;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-right: 1vw;
+}
+
+.logo {
+	width: 40vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 38vh 0;
+}
+
+.inputBox {
+	font-size: 11px;
+	line-height: 10px;
+	padding: 9px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	width: 21vw;
+	color: #383838;
+	font-weight: bold;
+}
+
+::placeholder { 
+	color: #383838;
+	opacity: 1;
+}
+
+.logo-resize {
+	width: 15vw;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 77.5vw;
+	margin-top: 32vh;
+	height: 57vh;
+	overflow: auto;
+	overflow-y: scroll;
+	position: relative;
+}
+
+.one {
+	position: absolute;
+	top: 0px;
+	left: 270px;
+}
+
+.two {
+	position: absolute;
+	top: 62px;
+	left: 5px;
+}
+
+.three {
+	position: absolute;
+	top: 141px;
+	left: 500px;
+}
+
+.four {
+	position: absolute;
+	top: 0px;
+	left: 272px;
+}
+
+.five {
+	position: absolute;
+	top: 0px;
+	left: 520px;
+}
+
+.six {
+	position: absolute;
+	top: 61px;
+	left: 5px;
+}
+
+.seven {
+	position: absolute;
+	top: 0px;
+	left: 417px;
+}
+
+.eight {
+	position: absolute;
+	top: 0px;
+	left: 1022px;
+}
+
+.circle {
+	position: absolute;
+	width: 154px;
+	top: 272px;
+	left: 219px;
+}
+
+.nine {
+	position: absolute;
+	top: 122px;
+	left: 5px;
+}
+
+.addStoryButton {
+	margin-top: 5vh;
+	font-size: 5vh;
+	padding: 1.5vh;
+	border: 2px #383838 solid;
+	width: 19vw;
+	border-radius: 5px;
+	transition: background-color 1s;
+}
+
+.addStoryButton:hover {
+	background-color: lightgray;
+}
+
+.star {
+	color: #c23838;
+}
+
+
+.lineHeightChange {
+	line-height: 6vh !important; 
+}
+
+.checkbox {
+	width: 2vw;
+	height: 2vw;
+	border: 2px #383838 solid;
+	float: left;
+	margin-top: 1vw;
+}
+
+.yesNo {
+	font-size: 5vh;
+	float: left;
+	padding-left: 1.5vw;
+	padding-right: 4vw;
+}
+
+.questions {
+	margin-top: 32vh;
+}
+
+.response {
+	margin-bottom: 5vh;
+}
+
+.byWho {
+	font-size: 5vh;
+	padding-left: 3vw;
+}
+
+.submitButton {
+	margin-top: 5vh;
+	font-size: 5vh;
+	padding: 1.5vh;
+	border: 2px #383838 solid;
+	width: 11.5vw;
+	border-radius: 5px;
+	transition: background-color 1s;
+}
+
+.submitButton:hover {
+	background-color: lightgray;
+}
