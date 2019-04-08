@@ -7,14 +7,21 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.typekit.net/rnh5bvu.css">
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/tony.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <audio id="my_audio" src="audio/tony.m4a"></audio>
-        <div class="docScroller tony">
+        <div class="docScroller">
             <div class="page">
                 <div class="header">
                     <a href="archive.html"><img class="logo-resize" src="images/logo.png"></a>
-                    <input class="inputBox helvetica" type="text" id="fname" name="firstname" placeholder="Tony">
+                    <div class="cont" style="width: 20vw; display: inline-block;">
+                        <div align="center">
+                            <input type="text" name="search" id="search" placeholder="Tony" class="form-control searchBox" autocomplete="off"/>
+                        </div>
+                        <ul class="list-group helvetica-2" id="result"></ul>
+                    </div>
+                    <!-- <input class="inputBox helvetica" type="text" id="fname" name="firstname" placeholder=""> -->
                     <a href="intro-page.html"><p class="about">about</p></a>
                 </div>
 
@@ -24,9 +31,7 @@
                     <p class="meta one">Anthony Huerta-Apanco</p>
                     <p class="meta two">Tony Huerta-Apanco</p>
                     <p class="meta three">Antonio, Mijo, or Chamaco</p>
-                    <button></button>
                 </div>
-                
             </div>
             <div class="page">
                 <div class="content">
@@ -54,10 +59,14 @@
                 </div>
             </div>
             <div class="page">
-                <div class="content">
+                <img class="arrows" id="hover" src="images/up.png">
+                <div class="content" id="container">
                     <p class="helvetica">Here's a positive incident that my name played a significant role in my interaction with another person: _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________.</p>
                     <p class="meta-2 nine">My name “Anthony” was significant with one individual at my boarding high school. My “second mother,” who happens to be a very important person in my life, asked why I didn’t use it. So, I explained the situation and with that, our relationship became closer so, whenever she might be a bit upset with me or wants my attention, she will call me Anthony</p>
+                    <br>
+                    <br>
                 </div>
+                <img class="arrows" id="hover2" src="images/down.png"> 
             </div>
             <div class="page">
                 <div class="content">

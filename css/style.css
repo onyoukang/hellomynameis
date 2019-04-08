@@ -136,18 +136,50 @@ a:hover {
 
 .s-name {
 	font-size: 1vw;
+	height: 1vh;
+	transition: 0.8s;
+}
+
+.s-name:hover {
+	/*height: 20vh;*/
+	transform: scale(1.1);
+	transform-origin: center;
 }
 
 .sm-name {
 	font-size: 2vw;
+	height: 5vh;
+	transition: 0.8s;
+}
+
+.sm-name:hover {
+	/*height: 20vh;*/
+	transform: scale(1.1);
+	transform-origin: center;
 }
 
 .m-name {
 	font-size: 3vw;
+	height: 9vh;
+	transition: 0.8s;
+}
+
+.m-name:hover {
+	/*height: 20vh;*/
+	transform: scale(1.1);
+	transform-origin: center;
 }
 
 .ml-name {
 	font-size: 4vw;
+	height: 13vh;
+	transition: 0.8s;
+}
+
+.ml-name:hover {
+	/*height: 20vh;*/
+	transform: scale(1.1);
+	transform-origin: center;
 }
 
 .l-name {
@@ -160,7 +192,6 @@ a:hover {
 	/*height: 20vh;*/
 	transform: scale(1.1);
 	transform-origin: center;
-
 }
 
 .page {
@@ -168,6 +199,7 @@ a:hover {
 	margin-left: 10vw;
 	width: 80vw;
 	height: 100vh;
+	position: relative;
 }
 
 .docScroller {
@@ -179,16 +211,6 @@ a:hover {
 	scroll-snap-points-y: repeat(100%);
 	scroll-snap-type: mandatory;
 	scroll-snap-destination: 100% 0%;
-}
-
-.tony {
-	top: 0;
-	left: 0;
-}
-
-.onyou {
-	top: 0;
-	left: 0;
 }
 
 .header {
@@ -257,73 +279,28 @@ input:focus {
 .content {
 	margin-left: auto;
 	margin-right: auto;
-	width: 77.5vw;
+	width: 78vw;
 	margin-top: 32vh;
-	height: 57vh;
+	height: 68vh;
 	overflow: auto;
 	overflow-y: scroll;
 	position: relative;
 }
 
-.one {
-	position: absolute;
-	top: 0px;
-	left: 270px;
+.arrows {
+	width: 3vh;
 }
 
-.two {
+#hover {
 	position: absolute;
-	top: 62px;
-	left: 5px;
+	right: -3vw;
+	top: 50vh;
 }
 
-.three {
+#hover2 {
 	position: absolute;
-	top: 141px;
-	left: 500px;
-}
-
-.four {
-	position: absolute;
-	top: 0px;
-	left: 272px;
-}
-
-.five {
-	position: absolute;
-	top: 0px;
-	left: 520px;
-}
-
-.six {
-	position: absolute;
-	top: 61px;
-	left: 5px;
-}
-
-.seven {
-	position: absolute;
-	top: 0px;
-	left: 417px;
-}
-
-.eight {
-	position: absolute;
-	top: 0px;
-	left: 1022px;
-}
-
-.circle {
-	position: absolute;
-	width: 154px;
-	top: 272px;
-	left: 219px;
-}
-
-.nine {
-	position: absolute;
-	top: 122px;
-	left: 5px;
+	right: -3vw;
+	top: 54vh;
 }
 
 .addStoryButton {
@@ -343,7 +320,6 @@ input:focus {
 .star {
 	color: #c23838;
 }
-
 
 .lineHeightChange {
 	line-height: 6vh !important; 

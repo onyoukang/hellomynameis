@@ -60,3 +60,30 @@ $(document).ready(function(){
 $(document).ready(function() {
     $("#my_audio").get(0).play();
 });
+
+
+// hover scroll
+var amount = '';
+
+function scroll() {
+    $('#container').animate({
+        scrollTop: amount
+    }, 100, 'linear',function() {
+        if (amount != '') {
+            scroll();
+        }
+    });
+}
+$('#hover').hover(function() {
+    console.log("boo!");
+    amount = '-=10';
+    scroll();
+}, function() {
+    amount = '';
+});
+$('#hover2').hover(function() {
+    amount = '+=10';
+    scroll();
+}, function() {
+    amount = '';
+});
