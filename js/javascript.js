@@ -37,7 +37,7 @@ $(document).ready(function(){
       $.each(data, function(key, value){
         if (value.name.search(expression) != -1) {
           $('#result').removeClass('active');
-          $('#result').append('<li class="list-group-item link-class"><a href="'+value.image+'" height="40" width="40" class="img-thumbnail">'+value.name+'</a>');
+          $('#result').append('<a href="'+value.image+'" height="40" width="40" class="img-thumbnail"><li class="list-group-item link-class">'+value.name+'</li></a>');
         }
       });   
     });
@@ -74,6 +74,7 @@ function scroll() {
         }
     });
 }
+
 $('#hover').hover(function() {
     console.log("boo!");
     amount = '-=10';
@@ -81,9 +82,67 @@ $('#hover').hover(function() {
 }, function() {
     amount = '';
 });
+
 $('#hover2').hover(function() {
     amount = '+=10';
     scroll();
 }, function() {
     amount = '';
 });
+
+
+// //double scroll
+// var amount2 = '';
+
+// function scroll() {
+//     $('#container2').animate({
+//         scrollTop: amount2
+//     }, 100, 'linear',function() {
+//         if (amount2 != '') {
+//             scroll();
+//         }
+//     });
+// }
+
+// $('#hover3').hover(function() {
+//     console.log("boo!");
+//     amount2 = '-=10';
+//     scroll();
+// }, function() {
+//     amount2 = '';
+// });
+
+// $('#hover4').hover(function() {
+//     amount2 = '+=10';
+//     scroll();
+// }, function() {
+//     amount2 = '';
+// });
+
+// //triple scroll
+// var amount3 = '';
+
+// function scroll() {
+//     $('#container3').animate({
+//         scrollTop: amount3
+//     }, 100, 'linear',function() {
+//         if (amount3 != '') {
+//             scroll();
+//         }
+//     });
+// }
+
+// $('#hover5').hover(function() {
+//     console.log("boo!");
+//     amount3 = '-=10';
+//     scroll();
+// }, function() {
+//     amount3 = '';
+// });
+
+// $('#hover6').hover(function() {
+//     amount3 = '+=10';
+//     scroll();
+// }, function() {
+//     amount3 = '';
+// });

@@ -1,0 +1,95 @@
+#hover {
+	position: absolute;
+	right: -3vw;
+	top: 50vh;
+}
+
+#hover2 {
+	position: absolute;
+	right: -3vw;
+	top: 54vh;
+}
+
+#container {
+	overflow-y: auto;
+    overflow: hidden;
+}
+
+#container div {
+	width: 100px;
+	height: 100px;    
+    float: left;
+}
+
+.one {
+	position: absolute;
+	top: 0px;
+	left: 270px;
+}
+
+.two {
+	position: absolute;
+	top: 62px;
+	left: 5px;
+}
+
+.three {
+	position: absolute;
+	top: 141px;
+	left: 335px;
+}
+
+.four {
+	position: absolute;
+	top: 0px;
+	left: 272px;
+}
+
+.five {
+	position: absolute;
+	top: 0px;
+	left: 520px;
+}
+
+.six {
+	position: absolute;
+	top: 61px;
+	left: 5px;
+}
+
+.seven {
+	position: absolute;
+	top: 0px;
+	left: 417px;
+}
+
+.eight {
+	position: absolute;
+	top: 0px;
+	left: 1022px;
+}
+
+.circle {
+	position: absolute;
+	width: 154px;
+	top: 146px;
+	left: 219px;
+}
+
+.nine {
+	position: absolute;
+	top: 122px;
+	left: 5px;
+}
+
+.ten {
+	position: absolute;
+	top: 140px;
+	left: 877px;
+}
+
+.eleven {
+	position: absolute;
+	top: 202px;
+	left: 5px;
+}

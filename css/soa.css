@@ -1,0 +1,138 @@
+#hover, #hover3, #hover5 {
+	position: absolute;
+	right: -3vw;
+	top: 50vh;
+}
+
+#hover2, #hover4, #hover6 {
+	position: absolute;
+	right: -3vw;
+	top: 54vh;
+}
+
+#container, #container2, #container3 {
+	overflow-y: auto;
+    overflow: hidden;
+}
+
+#container div {
+	width: 100px;
+	height: 100px;    
+    float: left;
+}
+
+#container2 div {
+	width: 100px;
+	height: 100px;    
+    float: left;
+}
+
+#container3 div {
+	width: 100px;
+	height: 100px;    
+    float: left;
+}
+
+.one {
+	position: absolute;
+	top: 0px;
+	left: 266px;
+}
+
+.two {
+	position: absolute;
+	top: 0px;
+	left: 759px;
+}
+
+.three {
+	position: absolute;
+	top: 141px;
+	left: 500px;
+}
+
+.four {
+	position: absolute;
+	top: 0px;
+	left: 268px;
+}
+
+.five {
+	position: absolute;
+	top: 0px;
+	left: 500px;
+}
+
+.six {
+	position: absolute;
+	top: 61px;
+	left: 5px;
+}
+
+.seven {
+	position: absolute;
+	top: 0px;
+	left: 417px;
+}
+
+.eight {
+	position: absolute;
+	top: 0px;
+	left: 960px;
+}
+
+.ten {
+	position: absolute;
+	top: 61px;
+	left: 5px;
+}
+
+.eleven {
+	position: absolute;
+	top: 122px;
+	left: 5px;
+}
+
+.twelve {
+	position: absolute;
+	top: 281px;
+	left: 5px;
+}
+
+.thirteen {
+	position: absolute;
+	top: 342px;
+	left: 5px;
+}
+
+.fourteen {
+	position: absolute;
+	top: 203px;
+	left: 390px;
+}
+
+.circle {
+	position: absolute;
+	width: 98px;
+	top: 146px;
+	left: 126px;
+	height: 57px;
+}
+
+.nine {
+	position: absolute;
+	top: 122px;
+	left: 5px;
+}
+
+.twelve {
+	position: absolute;
+	top: 281px;
+	left: 5px;
+}
+
+.eleven {
+	position: absolute;
+	top: 281px;
+	left: 212px;
+}
