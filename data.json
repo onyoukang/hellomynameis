@@ -1,15 +1,7 @@
 [
   {
-    "name":"Abby MacDonald",
-    "image": "abby.html"
-  },
-  {
-    "name":"Alex Cort",
-    "image": "alexC.html"
-  },
-  {
     "name":"Alex Ngo",
-    "image": "alexN.html"
+    "image": "alex.html"
   },
   {
     "name":"Ayanna Harrison",
@@ -18,10 +10,6 @@
   {
     "name":"Bersabeh Zenebe",
     "image": "bersabeh.html"
-  },
-  {
-    "name":"Cal Hsiao",
-    "image": "cal.html"
   },
   {
     "name":"Harriet Cho",
@@ -56,8 +44,20 @@
     "image": "nick.html"
   },
   {
+    "name":"OnYou Kang",
+    "image": "onyou.html"
+  },
+  {
     "name":"Peeti Sithiyopasakul",
     "image": "peeti.html"
+  },
+  {
+    "name":"Rita Verma",
+    "image": "rita.html"
+  },
+  {
+    "name":"Russell Beckham",
+    "image": "russell.html"
   },
   {
     "name":"Sherry Holmes",
