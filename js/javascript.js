@@ -61,7 +61,6 @@ $(document).ready(function() {
     $("#my_audio").get(0).play();
 });
 
-
 // hover scroll
 var amount = '';
 

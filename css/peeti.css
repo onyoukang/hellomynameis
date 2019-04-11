@@ -24,13 +24,7 @@
 .one {
 	position: absolute;
 	top: 0px;
-	left: 270px;
-}
-
-.zero {
-	position: absolute;
-	top: 0px;
-	left: 970px;
+	left: 264px;
 }
 
 .two {
@@ -42,7 +36,7 @@
 .three {
 	position: absolute;
 	top: 141px;
-	left: 338px;
+	left: 502px;
 }
 
 .four {
@@ -54,7 +48,7 @@
 .five {
 	position: absolute;
 	top: 0px;
-	left: 565px;
+	left: 532px;
 }
 
 .six {
@@ -72,30 +66,49 @@
 .eight {
 	position: absolute;
 	top: 0px;
-	left: 1022px;
+	left: 983px;
+}
+
+.ten {
+	position: absolute;
+	top: 61px;
+	left: 5px;
+}
+
+.fourteen {
+	position: absolute;
+	top: 202px;
+	left: 385px;
+}
+
+.eleven {
+	position: absolute;
+	top: 122px;
+	left: 5px;
+}
+
+.twelve {
+	position: absolute;
+	top: 280px;
+	left: 5px;
+}
+
+.thirteen {
+	position: absolute;
+	top: 280px;
+	left: 226px;
 }
 
 .circle {
 	position: absolute;
-	width: 154px;
-	top: 147px;
-	left: 219px;
+	width: 98px;
+	top: 146px;
+	left: 126px;
+	height: 57px;
 }
 
 .nine {
 	position: absolute;
 	top: 122px;
 	left: 5px;
-}
-
-.ten {
-	position: absolute;
-	top: 219px;
-	left: 5px;
-}
-
-.eleven {
-	position: absolute;
-	top: 219px;
-	left: 255px;
 }
