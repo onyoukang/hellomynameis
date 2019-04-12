@@ -76,6 +76,7 @@ a:hover {
 
 .myStory-span {
 	font-weight: 600;
+	font-size: 4.7vh;
 }
 
 .myStoryContent {
@@ -302,6 +303,22 @@ input:focus {
 	position: absolute;
 	right: -3vw;
 	top: 54vh;
+}
+
+.downs {
+	width: 7vh;
+}
+
+#down {
+	position: absolute;
+	right: -3vw;
+	top: 86vh;
+}
+
+#down2 {
+	position: absolute;
+	right: -3vw;
+	top: 87vh;
 }
 
 .addStoryButton {
