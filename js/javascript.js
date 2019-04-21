@@ -67,7 +67,7 @@ var amount = '';
 function scroll() {
     $('#container').animate({
         scrollTop: amount
-    }, 100, 'linear',function() {
+    }, 50, 'linear',function() {
         if (amount != '') {
             scroll();
         }
@@ -145,3 +145,13 @@ $('#hover2').hover(function() {
 // }, function() {
 //     amount3 = '';
 // });
+
+
+//scrollTo
+
+$(".down2").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#scroll-to").top
+    }, 2000);
+    console.log("clicked");
+});

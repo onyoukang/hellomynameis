@@ -13,7 +13,7 @@
             <div class="page">
                 <div class="header">
                     <a href="archive.html"><img class="logo-resize" src="images/logo.png"></a>
-                    <input class="inputBox helvetica" type="text" id="fname" name="firstname" placeholder="">
+                    <input class="inputBox helvetica this" type="text" id="fname" name="firstname" placeholder="search">
                     <a href="intro-page.html"><p class="about">about</p></a>
                 </div>
 
@@ -26,14 +26,16 @@
                     <input class="response-input meta" type="text" id="fname" name="fname">
 
                     <p class="helvetica lineHeightChange">Are you called by any different names by your family or close friends? <span class="star">*</span></p>
-                    <label class="container meta yesNo">Yes
-                        <input type="radio" checked="checked" name="radio">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container meta yesNo">No
-                        <input type="radio" checked="checked" name="radio">
-                        <span class="checkmark"></span>
-                    </label>
+                    <form>
+                        <label class="container meta yesNo">Yes
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container meta yesNo">No
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    </form>
                     <!-- <div class="checkbox response"></div>
                     <p class="meta yesNo response">Yes</p> -->
                     <!-- <div class="checkbox response"></div>
@@ -46,12 +48,26 @@
                     <input class="response-input meta" type="text" id="fname" name="fname">
 
                     <p class="helvetica lineHeightChange">My legal name was given by <span class="star">*</span></p>
-                    <div class="checkbox"></div>
-                    <p class="meta byWho">my parents</p>
-                    <div class="checkbox"></div>
-                    <p class="meta byWho">I am not sure who</p>
-                    <div class="checkbox"></div>
-                    <p class="meta byWho response">other <input class="response-input-other meta" type="text" id="fname" name="fname"></p>
+                    <form>
+                        <label class="container2 meta byWho">my parents
+                            <input type="radio" name="radio">
+                            <span class="checkmark2"></span>
+                        </label>
+                        <label class="container2 meta byWho">my grandparents
+                            <input type="radio" name="radio">
+                            <span class="checkmark2"></span>
+                        </label>
+                        <label class="container2 meta byWho">I am not sure who
+                            <input type="radio" name="radio">
+                            <span class="checkmark2"></span>
+                        </label>
+                        <label class="container2 meta byWho">other
+                            <input type="radio" name="radio">
+                            <span class="checkmark2"></span>
+                        </label>
+                        <input class="response-input-other meta" type="text" id="fname" name="fname">
+                    </form>
+                    <!-- <p class="meta byWho response">other <input class="response-input-other meta" type="text" id="fname" name="fname"></p> -->
 
 
                     <p class="helvetica lineHeightChange">I was named after <span class="star">*</span></p>
@@ -68,16 +84,28 @@
                     <input class="response-input-long meta" type="text" id="fname" name="fname">
 
                     <p class="helvetica lineHeightChange">Is it okay that I publish the survey result on the interactive website that I am creating for senior design capstone? <span class="star">*</span></p>
-                    <div class="checkbox response"></div>
-                    <p class="meta yesNo response">Yes</p>
-                    <div class="checkbox response"></div>
-                    <p class="meta yesNo response">No</p>
+                    <form>
+                        <label class="container2 meta yesNo">Yes
+                            <input type="radio" name="radio">
+                            <span class="checkmark2"></span>
+                        </label>
+                        <label class="container2 meta yesNo">No
+                            <input type="radio" name="radio">
+                            <span class="checkmark2"></span>
+                        </label>
+                    </form>
 
                     <p class="helvetica">Can I contact you for more in depth interview? <span class="star">*</span></p>
-                    <div class="checkbox response"></div>
-                    <p class="meta yesNo response">Yes</p>
-                    <div class="checkbox response"></div>
-                    <p class="meta yesNo response">No</p>
+                    <form>
+                        <label class="container meta yesNo">Yes
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container meta yesNo">No
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    </form>
 
 
                     <p class="helvetica lineHeightChange">If yes, what is the best way for me to reach out to you? </p>
@@ -86,7 +114,7 @@
                     <br>
                     <br>
                     <br>
-                    <a href="newStory.html"><p class="meta submitButton">Submit</p></a>
+                    <a href="thanks.html"><p class="meta submitButton">Submit</p></a>
                     <br>
                     <br>
                     <br>

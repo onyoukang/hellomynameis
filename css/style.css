@@ -20,7 +20,7 @@ a:hover {
 
 .meta {
 	font-family: ff-meta-serif-web-pro,serif;
-	font-weight: 800;
+	font-weight: 700;
 	font-style: normal;
 	color: #383838;
 	font-size: 5vh;
@@ -28,7 +28,7 @@ a:hover {
 
 .meta-2 {
 	font-family: ff-meta-serif-web-pro,serif;
-	font-weight: 800;
+	font-weight: 700;
 	font-style: normal;
 	color: #383838;
 	font-size: 5vh;
@@ -75,8 +75,18 @@ a:hover {
 }
 
 .myStory-span {
+	font-weight: 800;
+	font-size: 4.5vh;
+}
+
+.myStory-italics {
+	font-style: italic;
+	font-weight: 500;
+}
+
+.title-italic {
+	font-style: italic;
 	font-weight: 600;
-	font-size: 4.7vh;
 }
 
 .myStoryContent {
@@ -93,8 +103,9 @@ a:hover {
 	margin-top: 5vh;
 	font-size: 3vh;
 	padding: 1.5vh;
+	padding-right: 0vh;
 	border: 2px #383838 solid;
-	width: 13vw;
+	width: 12vw;
 	border-radius: 5px;
 	transition: background-color 1s;
 }
@@ -255,6 +266,11 @@ a:hover {
 	font-weight: bold;
 }
 
+.this::placeholder {
+	color: #383838;
+	opacity: 0.4;
+}
+
 ::placeholder { 
 	color: #383838;
 	opacity: 1;
@@ -305,6 +321,18 @@ input:focus {
 	top: 54vh;
 }
 
+#hover3 {
+	position: absolute;
+	right: -3vw;
+	top: 50vh;
+}
+
+#hover4 {
+	position: absolute;
+	right: -3vw;
+	top: 54vh;
+}
+
 .downs {
 	width: 7vh;
 }
@@ -314,12 +342,12 @@ input:focus {
 	right: -3vw;
 	top: 86vh;
 }
-
+/*
 #down2 {
 	position: absolute;
 	right: -3vw;
 	top: 87vh;
-}
+}*/
 
 .addStoryButton {
 	margin-top: 5vh;
@@ -415,7 +443,7 @@ input:focus {
 
 
 /* The container */
-.container {
+.container, .container2 {
 	display: block;
 	position: relative;
 	padding-left: 50px;
@@ -428,14 +456,14 @@ input:focus {
 }
 
 /* Hide the browser's default radio button */
-.container input {
+.container input, .container2 input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
 /* Create a custom radio button */
-.checkmark {
+.checkmark, .checkmark2 {
   position: absolute;
   top: 10px;
   left: 0;
@@ -447,29 +475,24 @@ input:focus {
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+.container:hover input ~ .checkmark, .container2:hover input ~ .checkmark2 {
   background-color: #efefef;
 }
 
-/* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  background-color: #f9f9f9;
-}
-
 /* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
+.checkmark:after, .checkmark2:after {
   content: "";
   position: absolute;
   display: none;
 }
 
 /* Show the indicator (dot/circle) when checked */
-.container input:checked ~ .checkmark:after {
+.container input:checked ~ .checkmark:after, .container2 input:checked ~ .checkmark2:after {
   display: block;
 }
 
 /* Style the indicator (dot/circle) */
-.container .checkmark:after {
+.container .checkmark:after, .container2 .checkmark2:after {
  	top: 1vh;
 	left: 1vh;
 	width: 1.5vh;
@@ -513,4 +536,47 @@ body {
 
 li:hover {
 	color: black;
+}
+
+span span {
+    position: absolute;
+	right: -3vw;
+	top: 86vh;
+    width: 18px;
+    height: 18px;
+    margin-left: -12px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
 }
