@@ -885,7 +885,7 @@ li:hover {
 }
 
 @media screen and (max-width: 768px) {
-	#content-desktop {
+	#content-desktop, .about {
 		display: none;
 	}
 
@@ -894,11 +894,26 @@ li:hover {
     }
 
     .instagram {
-    	margin-top: 15vh;
+    	padding-top: 15vh;
+    	padding-left: 6vw;
     }
 
     .header {
-    	
+    	padding-left: 10vw;
+    	width: 90vw;
+    }
+
+    .about2 {
+	    position: relative;
+		float: right;
+		font-size: 8px;
+  		padding-top: 8px;
+		margin-top: 10px;
+		margin-right: 1vw;
+    }
+
+    iframe {
+    	width: 80vw;
     }
 }
 
