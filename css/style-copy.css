@@ -213,7 +213,7 @@ a:hover {
 	width: 80vw;
 	height: 100vh;
 	position: relative;
-	scroll-snap-align: center;
+	scroll-snap-align: none start;
 }
 
 .docScroller {
@@ -224,8 +224,8 @@ a:hover {
 	overflow: auto;
 	scroll-snap-points-y: repeat(100%);
 	scroll-snap-type: mandatory;
-	/*scroll-snap-type: y proximity;*/
 	scroll-snap-destination: 100% 0%;
+	-webkit-overflow-scrolling: touch;
 }
 
 .header {
@@ -536,35 +536,19 @@ li:hover {
 	color: black;
 }
 
-.scrollTo1 {
+span span {
     position: absolute;
 	right: -3vw;
 	top: 86vh;
     width: 18px;
     height: 18px;
     margin-left: -12px;
-    border-left: 2px solid #000;
-    border-bottom: 2px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-animation: sdb05 1.5s infinite;
     animation: sdb05 1.5s infinite;
-    box-sizing: border-box;
-}
-
-.scrollTo2 {
-    position: absolute;
-	right: -3vw;
-	top: 84.5vh;
-    width: 18px;
-    height: 18px;
-    margin-left: -12px;
-    border-left: 2px solid #000;
-    border-bottom: 2px solid #000;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    -webkit-animation: sdb06 1.5s infinite;
-    animation: sdb06 1.5s infinite;
     box-sizing: border-box;
 }
 
@@ -593,31 +577,3 @@ li:hover {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
-}
-
-@-webkit-keyframes sdb06 {
-  0% {
-    -webkit-transform: rotate(-45deg) translate(0, 0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
-    opacity: 0;
-  }
-}
-@keyframes sdb06 {
-  0% {
-    transform: rotate(-45deg) translate(0, 0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: rotate(-45deg) translate(-20px, 20px);
-    opacity: 0;
-  }
-}
