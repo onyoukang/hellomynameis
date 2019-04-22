@@ -621,3 +621,285 @@ li:hover {
     opacity: 0;
   }
 }
+
+.alex {
+	top: 66vh; 
+	left: 37vw;
+}
+
+.ayanna {
+	top: 27vh; 
+	left: 57vw;
+}
+
+.bersabeh {
+	top: -4vh; 
+	left: 46vw; 
+	height: 15vh;
+}
+
+.harriet {
+	top: 59vh; 
+	left: -4vw;
+}
+
+.kuu {
+	top: 49vh; 
+	left: 50vw;
+}
+
+.maddy {
+	top: 16vh; 
+	left: 70vw;
+}
+
+.maggie {
+	top: 16vh; 
+	left: 44vw;
+}
+
+.mars {
+	top: 39vh; 
+	left: 28vw;
+}
+
+.matt {
+	top: 1vh; 
+	left: 16vw;
+}
+
+.matthew {
+	top: 25vh; 
+	left: 25vw;
+}
+
+.nick {
+	top: 37vh; 
+	left: 47vw;
+}
+
+.onyou {
+	top: 58vh; 
+	left: 57vw; 
+	height: 15vh;
+}
+
+.peeti {
+	top: 46vh; 
+	left: 2vw;
+}
+
+.rita {
+	top: 20vh; 
+	left: 1vw;
+}
+
+.russell {
+	top: 37vh; 
+	left: 10vw;
+}
+
+.sherry {
+	top: -1vh; 
+	left: -2vw;
+}
+
+.soa {
+	top: 57vh; 
+	left: 17vw;
+}
+
+.tony {
+	top: 3vh; 
+	left: 36vw;
+}
+
+.cont {
+	width: 20vw; 
+	display: inline-block;
+}
+
+#content-desktop {
+	display: block;
+}
+
+#content-mobile {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .names {
+  	height: 7vh;
+  }
+
+  .ayanna {
+  	top: -5vh;
+  	left: 0vw;
+  }
+
+  .alex {
+  	top: -5vh;
+  	left: 45vw;
+  }
+
+  .bersabeh {
+  	top: 3vh;
+  	left: 5vw;
+  }
+
+  .harriet {
+  	top: 11vh;
+  	left: 0vw;
+  }
+
+  .kuu {
+  	top: 11vh;
+  	left: 40vw;
+  }
+
+  .maddy {
+  	top: 19vh;
+  	left: 5vw;
+  }
+
+  .maggie {
+  	top: 20vh;
+  	left: 55vw;
+  }
+
+  .mars {
+  	top: 28vh;
+  	left: 0vw;
+  }
+
+  .matt {
+  	top: 28vh;
+  	left: 35vw;
+  }
+
+  .matthew {
+  	top: 37vh;
+  	left: -5vw;
+  }
+
+  .nick {
+  	top: 37vh;
+  	left: 55vw;
+  	height: 6.6vh;
+  }
+
+  .onyou {
+  	top: 46vh;
+  	left: 5vw;
+  }
+
+  .peeti {
+  	top: 46vh;
+  	left: 55vw;
+  }
+
+  .rita {
+  	top: 56vh;
+  	left: 0vw;
+  }
+
+  .russell {
+  	top: 55vh;
+  	left: 35vw;
+  }
+
+  .sherry {
+  	top: 65vh;
+  	left: 0vw;
+  }
+
+  .soa {
+  	top: 64vh;
+  	left: 50vw;
+  }
+
+  .tony {
+  	top: 71vh;
+  	left: 30vw;
+  }
+
+  .logo-resize {
+  	width: 51vw;
+  }
+
+  .cont {
+  	position: absolute;
+  	left: 0vw;
+  	top: 12vh;
+  	width: 60vw;
+  	height: 3.5vh;
+  	display: none;
+  }
+
+  .searchBox {
+  	font-size: 8px;
+  	padding: 0px 8px;
+  }
+
+  .form-control {
+  	height: 3.5vh;
+  }
+
+  .about {
+  	font-size: 8px;
+  	padding-top: 8px;
+  }
+
+  .myStory {
+  	width: 80vw;
+  	font-size: 2vh;
+	line-height: 3.3vh;
+	font-weight: 500;
+  }
+
+  .myStory-span {
+  	font-weight: 800;
+	font-size: 3.7vh;
+	line-height: 4.2vh;
+  }
+
+  .toArchiveButton {
+	margin-top: 2vh;
+	font-size: 2.5vh;
+	padding: 1.3vh;
+	padding-right: 1.3vh;
+	padding-right: 0vh;
+	border: 2px #383838 solid;
+	width: 41vw;
+	border-radius: 5px;
+	transition: background-color 1s;
+  }
+
+  .logo {
+  	width: 70vw;
+  }
+
+  .content, .scrollTo1, .scrollTo2 {
+  	display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+	#content-desktop {
+		display: none;
+	}
+
+    #content-mobile {
+    	display: block;
+    }
+
+    .instagram {
+    	margin-top: 15vh;
+    }
+
+    .header {
+    	
+    }
+}
+
+
