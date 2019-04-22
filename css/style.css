@@ -912,6 +912,10 @@ li:hover {
     	width: 80vw;
     }
 
+    .about {
+    	padding-right: 20vw;
+    }
+
     #content-mobile .page .header {
     	padding-left: 10vw;
     }
