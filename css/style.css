@@ -912,6 +912,10 @@ li:hover {
 		margin-right: 1vw;
     }
 
+    .page {
+    	margin-left: 0;
+    }
+
     iframe {
     	width: 80vw;
     }
