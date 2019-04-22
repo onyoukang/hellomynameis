@@ -900,19 +900,20 @@ li:hover {
 
     .header {
     	padding-left: 10vw;
-    	width: 90vw;
+    	width: 100vw;
     }
 
     .about2 {
 	    position: relative;
 		float: right;
-		font-size: 8px;
+		font-size: 10px;
   		padding-top: 8px;
 		margin-top: 10px;
-		margin-right: 1vw;
+		margin-right: 10vw;
     }
 
     .page {
+    	width: 100vw;
     	margin-left: 0;
     }
 
