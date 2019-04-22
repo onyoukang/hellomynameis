@@ -885,7 +885,7 @@ li:hover {
 }
 
 @media screen and (max-width: 768px) {
-	#content-desktop, .about {
+	#content-desktop {
 		display: none;
 	}
 
@@ -899,17 +899,8 @@ li:hover {
     }
 
     .header {
-    	padding-left: 10vw;
+    	/*padding-left: 10vw;*/
     	width: 100vw;
-    }
-
-    .about2 {
-	    position: relative;
-		float: right;
-		font-size: 10px;
-  		padding-top: 8px;
-		margin-top: 10px;
-		margin-right: 10vw;
     }
 
     .page {
@@ -919,6 +910,14 @@ li:hover {
 
     iframe {
     	width: 80vw;
+    }
+
+    #content-mobile .page .header {
+    	padding-left: 10vw;
+    }
+
+    #content-mobile .page .about {
+    	padding-right: 10vw;
     }
 }
 
